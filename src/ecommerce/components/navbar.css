@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 0.75rem;
+    padding-inline: 1rem;
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    background-color: var(--primaryColor);
+}
+
+.navbar button {
+    background-color: var(--grayBg);
+    border: none;
+    color: var(--grayText);
+    padding-block: .5rem;
+    padding-inline: .65rem;
+    border-radius: .5rem;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.flex-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-icon {
+    font-size: 1.3rem;
+}
+
+.title {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 700;
+    color: var(--btnTitleColor);
+}

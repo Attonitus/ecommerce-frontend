@@ -1,0 +1,50 @@
+.a-img {
+    inline-size: 100%;
+}
+
+.hero-g img {
+    block-size: 35rem;
+    display: block;
+    object-fit: cover;
+    aspect-ratio: auto 768 / 960;
+    inline-size: 100%;
+}
+
+.card-img img {
+    block-size: 15rem;
+    display: block;
+    object-fit: cover;
+    aspect-ratio: auto 768 / 512;
+    inline-size: 100%;
+}
+
+
+@media screen and (min-width: 768px) {
+    .hero-g img {
+        block-size: 100%;
+    }
+
+    .hero-m {
+        display: flex;
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+
+    .hero-m img {
+        flex: 1;
+        inline-size: 100%;
+        block-size: 100%;
+    }
+
+    .hero-s {
+        display: flex;
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+
+    .hero-s img {
+        flex: 1;
+        inline-size: 100%;
+        block-size: 100%;
+    }
+}

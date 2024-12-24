@@ -1,0 +1,24 @@
+.top-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 1rem;
+}
+
+.title-list {
+    font-weight: 400;
+}
+
+.list-products {
+    block-size: 16rem;
+    display: flex;
+    overflow-y: auto;
+    gap: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .list-products {
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,49 @@
+:root {
+  --primaryColor: #ffffff;
+  --btnTitleColor: #1f140b;
+  --black: #0d0d0d;
+  --grayText: #656565;
+  --grayBg: #f2f2f2;
+  font-size: 16px;
+  font-family: "Montserrat", serif;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: var(--black);
+}
+
+.container {
+  border: 1px solid red;
+  max-inline-size: 72rem;
+  margin: auto;
+}
+
+.container-s {
+  padding: 1rem;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: .5rem;
+  block-size: .5rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 1rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

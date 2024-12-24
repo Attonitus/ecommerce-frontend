@@ -1,0 +1,70 @@
+.modal-container {
+    position: relative;
+    background-color: black;
+}
+
+.modal-content {
+    position: fixed;
+    inline-size: 100%;
+    block-size: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.67);
+
+}
+
+.carrousel-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    inline-size: 100%;
+}
+
+.carrousel-img {
+    inline-size: 70%;
+    block-size: 30rem;
+    object-fit: cover;
+}
+
+.close-modal-button {
+    background-color: var(--black);
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+}
+
+.alter {
+    position: fixed;
+    z-index: -1;
+    inline-size: 100%;
+    top: 0;
+}
+
+.product-info {
+    background-color: rgba(255, 255, 255, 0.856);
+    margin-top: 30rem;
+    padding: 1rem;
+}
+
+.size-list button {
+    background-color: var(--grayBg);
+    border: none;
+    color: var(--grayText);
+    padding-block: .5rem;
+    padding-inline: .65rem;
+    border-radius: .5rem;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hero-g img {
+        block-size: 100%;
+        aspect-ratio: 1;
+    }
+}
